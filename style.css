@@ -6,4 +6,5 @@
 
 html {
     font-family: 'Black Han Sans', sans-serif;
+    scroll-behavior: smooth;
 }

@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="icon" type="image/svg+xml" href="logo.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cuan Web</title>
+  <title>Heroes Adventure</title>
 </head>
 
 <body>
@@ -21,9 +21,11 @@
             </svg>
           </label>
           <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-            <li><a>Item 1</a></li>
-            <li><a>Item 2</a></li>
-            <li><a>Item 3</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#tokenomics">Tokenomics</a></li>
+            <li><a href="#roadmap">Roadmap</a></li>
+            <li><a href="#commmunity">Community</a></li>
           </ul>
         </div>
         <a class="btn btn-ghost normal-case text-xl">
@@ -32,10 +34,11 @@
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal p-0">
-          <li><a>Home</a></li>
-          <li><a>About</a></li>
-          <li><a>Tokenomics</a></li>
-          <li><a>Roadmap</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#tokenomics">Tokenomics</a></li>
+          <li><a href="#roadmap">Roadmap</a></li>
+          <li><a href="#commmunity">Community</a></li>
         </ul>
       </div>
       <div class="navbar-end">
@@ -44,7 +47,7 @@
     </div>
   </section>
 
-  <section class="bg-gradient-to-b from-[#2A303C] to-[#6419E6]">
+  <section class="bg-gradient-to-b from-[#2A303C] to-[#6419E6]" id="home">
 
     <div class="absolute -left-96">
       <img class="object-cover object-right min-h-screen hidden md:block motion-safe:animate-slow-spin"
@@ -65,7 +68,7 @@
   </section>
 
 
-  <section class="bg-gradient-to-b from-[#6419E6] to-[#2A303C] text-primary-content">
+  <section class="bg-gradient-to-b from-[#6419E6] to-[#2A303C] text-primary-content" id="about">
     <div class="absolute right-0.5 hidden md:block">
       <img class="min-h-screen" src="./assets/dragon.svg" alt="">
     </div>
@@ -82,7 +85,7 @@
   </section>
 
   <section>
-    <div class="flex flex-col min-h-screen p-10 gap-10">
+    <div class="flex flex-col min-h-screen p-10 gap-10" id="tokenomics">
       <h1 class="text-3xl font-medium text-primary-content text-center">OUR TOKENOMICS?</h1>
       <div class="flex flex-row flex-wrap items-center justify-center gap-5">
         <img class="w-96" src="./assets/phase_1.svg" alt="">
@@ -92,7 +95,7 @@
     </div>
   </section>
 
-  <section>
+  <section id="roadmaps">
     <h1 class="text-3xl font-medium text-primary-content text-center">ROADMAPS YOU SAY?</h1>
     <!-- component -->
     <div class="container bg-gradient-to-b from-[#2A303C] to-[#6419E6] mx-auto w-full h-full">
@@ -161,7 +164,7 @@
     </div>
   </section>
 
-  <section>
+  <section id="community">
     <div class="flex flex-col gap-5 p-10 items-center justify-center bg-gradient-to-b from-[#6419E6] to-[#2A303C]">
       <h1 class="text-3xl font-medium text-primary-content text-center">JOIN OUR ADVENTURE NOW!</h1>
       <a class="w-1/4 " href="">
